@@ -1,0 +1,6 @@
+{
+  "name": "Pananaw — Editorial & Opinions",
+  "description": "An intimate sanctuary for long-form essays, incisive editorial columns, and cultural commentary with a luxurious reading experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

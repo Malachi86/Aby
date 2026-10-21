@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-midnight: #0C0420;
+  --color-brand-plum-900: #1b0a24;
+  --color-brand-plum-800: #2d1338;
+  --color-brand-plum-700: #5D3C64;
+  --color-brand-plum-600: #6d4067;
+  --color-brand-plum-500: #7B466A;
+  --color-brand-orchid: #9F6496;
+  --color-brand-rose: #BA6E8F;
+  --color-brand-blush: #D391B0;
+  --color-brand-pink: #F8A5C2;
+  --color-brand-pink-light: #FDE2EB;
+  --color-brand-blush-light: #FFF5F8;
+  --color-brand-paper: #FAF7F2;
+  --color-brand-sepia: #F3ECE2;
+
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", serif;
+  --font-display: "Cinzel", "Playfair Display", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar and reading typography */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C0420;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5D3C64;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7B466A;
+}
+
+/* Drop-cap styling for editorial articles */
+.editorial-drop-cap::first-letter {
+  font-family: "Playfair Display", Georgia, serif;
+  float: left;
+  font-size: 3.75rem;
+  line-height: 0.85;
+  margin-top: 0.15rem;
+  margin-right: 0.75rem;
+  font-weight: 700;
+  color: #BA6E8F;
+}
+
+/* Smooth transitions */
+* {
+  box-sizing: border-box;
+}
